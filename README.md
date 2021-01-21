@@ -5,6 +5,14 @@
 npm install
 ```
 
+### Install Firebase 
+```
+npm install --save firebase
+```
+
+##### Add your firebase app configuration in `src/firebase.js`. 
+##### Replace `process.env.VUE_APP_API_KEY` with your API key  in `src/store/action.js`. 
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
